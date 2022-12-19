@@ -28,6 +28,7 @@ struct ContentView: View {
             } label: {
                 Text ("Click Me !")
                     .font(.title2)
+                    .foregroundColor(.black).bold()
             }
         }
         
